@@ -1,0 +1,27 @@
+ body {
+     display: flex;
+     justify-content: center;
+     background: lightseagreen;
+     text-align: center;
+     margin: 25rem;
+ }
+
+ a {
+     font-size: 25px;
+     color: #373737;
+     text-decoration: none;
+     transition: .4s;
+ }
+
+ a:hover {
+     color: yellow;
+ }
+
+ .test {
+     transition: .4s;
+ }
+
+.test:hover {
+     color: yellow;
+     transform: rotateX(1800deg) scale(1.2);
+ }

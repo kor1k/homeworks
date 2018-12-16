@@ -1,0 +1,117 @@
+* {
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.nav-bar-top {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.nav-bar-top-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nav-bar-top-item {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+    color: #16a085;
+    font-size: 18px;
+    margin: 2.5rem;
+    transition: .3s;
+}
+
+.nav-bar-top-item:hover {
+    color: yellowgreen;
+}
+
+.content {
+    background: #f5f6f7;
+    padding-bottom: 100px;
+}
+
+.content-title {
+    font-family: Roboto, sans-serif;
+    color: #373737;
+    font-size: 22px;
+    font-weight: 900;
+    padding-top: 56px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.content-paragraph-1 {
+    font-family: Roboto, sans-serif;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-paragraph-2 {
+    font-family: Roboto, sans-serif;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content-paragraph-1, .content-paragraph-2 {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.content-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: #16a085;
+    width: 192px;
+    height: 51px;
+    transition: .3s;
+}
+
+.content-button:hover {
+    background-color: green;
+}
+
+.content-button-text {
+    text-transform: uppercase;
+    font-family: GothamRounded, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-text {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 40px 100px 40px;
+    color: #373737;
+    font-size: 16px;
+    font-weight: 900;
+}
