@@ -88,10 +88,11 @@
 }
 
 .content-button:hover {
+    cursor: pointer;
     background-color: green;
 }
 
-.content-button-text {
+.content-button-text  {
     text-transform: uppercase;
     font-family: GothamRounded, sans-serif;
     color: #ffffff;
