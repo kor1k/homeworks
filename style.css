@@ -25,15 +25,16 @@
 
 
 .homework > a {
-    margin-top: 50%;
+    margin-top: 75%;
     color: orange;
     font-weight: 700;
     font-size: 30px;
     transition: .3s;
-
+    /*filter: blur(0.7rem);*/
 }
 
 .homework > a:hover {
     color: red;
     transform: scale(1.2);
+    /*filter: blur(0rem);*/
 }
