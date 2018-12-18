@@ -1,27 +1,39 @@
- body {
-     display: flex;
-     justify-content: center;
-     background: lightseagreen;
-     text-align: center;
-     margin: 25rem;
- }
+* {
+    text-decoration: none;
+    list-style: none;
+}
 
- a {
-     font-size: 25px;
-     color: #373737;
-     text-decoration: none;
-     transition: .4s;
- }
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 
- a:hover {
-     color: yellow;
- }
+.hw-block {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
- .test {
-     transition: .4s;
- }
+.homework {
+    font-family: Lato, sans-serif;
+    display: flex;
+    justify-content: center;
+    color: orange;
+    font-weight: 700;
+    font-size: 30px;
+}
 
-.test:hover {
-     color: yellow;
-     transform: rotateX(1800deg) scale(1.2);
- }
+
+.homework > a {
+    margin-top: 50%;
+    color: orange;
+    font-weight: 700;
+    font-size: 30px;
+    transition: .3s;
+
+}
+
+.homework > a:hover {
+    color: red;
+    transform: scale(1.2);
+}
