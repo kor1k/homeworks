@@ -74,6 +74,9 @@
     transform: scale(1.2);
 }
 
-/*.navigation-block-item:hover {*/
-    /*margin: 2rem;*/
-/*}*/
+.asd {
+    font-size: 80px;
+    color: red;
+    font-weight: 700;
+    font-family: Roboto, sans-serif;
+}
